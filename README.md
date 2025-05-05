@@ -100,6 +100,58 @@ Este é um breve tutorial dos passos básicos para criar uma máquina virtual (V
 13. **Implantação:** O Azure iniciará a implantação da sua máquina virtual. Você poderá acompanhar o progresso no painel de notificações.
 14. **Conectar:** Após a implantação ser concluída, você poderá se conectar à sua VM usando SSH (para Linux) ou Conexão de Área de Trabalho Remota (RDP) para Windows, dependendo das suas configurações de rede e segurança.
 
+🚀 Como Criar uma Instância Gerenciada de SQL no Azure
+Pré-requisitos:
+Conta no Microsoft Azure
+
+Permissões suficientes para criar recursos (pode variar em contas corporativas)
+
+🛠️ Passo a Passo
+1. Acesse o Portal do Azure
+Vá para: https://portal.azure.com
+
+2. Pesquise por "Instância Gerenciada de SQL"
+Na barra de pesquisa superior, digite: Instância Gerenciada de SQL
+
+Clique em Instância Gerenciada de SQL nos resultados
+
+3. Clique em + Criar
+Selecione + Criar ou + Adicionar
+
+4. Preencha os Detalhes Básicos:
+Assinatura: selecione a sua
+
+Grupo de Recursos: crie um novo ou selecione um existente
+
+Nome da instância: nome único (ex: sql-instancia-demo)
+
+Região: selecione a região mais próxima de você ou do seu público
+
+Tipo de Camada: escolha entre:
+
+General Purpose (mais comum)
+
+Business Critical (alta performance)
+
+Tamanho e armazenamento: escolha conforme necessidade
+
+5. Configure o Acesso
+Defina o admin login e senha
+
+Configure a rede virtual (VNet) — pode usar a padrão ou configurar manualmente
+
+6. Clique em Revisar + Criar
+Revise as configurações
+
+Clique em Criar
+
+⚠️ A implantação pode levar até 20 minutos.
+
+✅ Após a Criação
+Acesse a instância no painel do Azure
+
+Copie o endpoint do servidor para se conectar via SQL Server Management Studio, Azure Data Studio ou outro cliente
+
 ## Conclusão
 
 Este guia resume os principais conceitos aprendidos sobre a nuvem Azure e detalha os passos para a criação de uma máquina virtual. A prática e a documentação são etapas cruciais no processo de aprendizado e espero que este material sirva como um bom ponto de partida para futuras explorações no universo da computação em nuvem com o Azure.
