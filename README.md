@@ -100,13 +100,13 @@ Este é um breve tutorial dos passos básicos para criar uma máquina virtual (V
 13. **Implantação:** O Azure iniciará a implantação da sua máquina virtual. Você poderá acompanhar o progresso no painel de notificações.
 14. **Conectar:** Após a implantação ser concluída, você poderá se conectar à sua VM usando SSH (para Linux) ou Conexão de Área de Trabalho Remota (RDP) para Windows, dependendo das suas configurações de rede e segurança.
 
-🚀 Como Criar uma Instância Gerenciada de SQL no Azure
+## 🚀 Como Criar uma Instância Gerenciada de SQL no Azure
 Pré-requisitos:
 Conta no Microsoft Azure
 
 Permissões suficientes para criar recursos (pode variar em contas corporativas)
 
-🛠️ Passo a Passo
+## 🛠️ Passo a Passo
 1. Acesse o Portal do Azure
 Vá para: https://portal.azure.com
 
